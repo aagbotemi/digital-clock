@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Oxygen', sans-serif;
+}
+#date, #greeting {
+    margin-bottom: 0.5rem;
+}
+p {
+    text-align: center;
+    margin: 2rem 0rem 0.2rem;
+}
+.time {
+    display: flex;
+    width: 290px;
+    position: relative;
+    font-size: 32px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+#hour, #minute, #second {
+    width: 15vw;
+    padding: 30px;
+}
+#hour {
+    background-color: blue;
+}
+#minute {
+    background-color: #ffac00;
+}
+#second {
+    background-color: blue;
+}
+#meridies {
+    position: absolute;
+    right:  0.5rem;
+    font-size: 20px;
+    color: rgba(161, 161, 161, 0.877);
+    font-weight: bold;
+}
+.fa-cloud-sun, .fa-sun, .fa-cloud-moon, .fa-moon {
+    font-size: 1.15rem;
+    margin-left: 0.4rem;
+}
+.fa-cloud-sun {
+    color: #f1eda7;
+}
+.fa-sun {
+    color: #ffa600;
+}
+.fa-cloud-moon{
+    color: #767ffc;
+}
+.fa-moon {
+    color: #c9dceb;
+}
