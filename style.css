@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 70vh;
     font-family: 'Oxygen', sans-serif;
 }
 #date, #greeting {
@@ -21,13 +21,13 @@ p {
 }
 .time {
     display: flex;
-    width: 290px;
+    width: 300px;
     position: relative;
-    font-size: 32px;
+    font-size: 35px;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
 }
 #hour, #minute, #second {
-    width: 15vw;
+    width: 100%;
     padding: 30px;
 }
 #hour {
@@ -41,10 +41,12 @@ p {
 }
 #meridies {
     position: absolute;
-    right:  0.5rem;
+    top: 5rem;
+    right:  0.3rem;
     font-size: 20px;
     color: rgba(161, 161, 161, 0.877);
-    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    /* font-weight: bold; */
 }
 .fa-cloud-sun, .fa-sun, .fa-cloud-moon, .fa-moon {
     font-size: 1.15rem;
